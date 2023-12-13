@@ -41,9 +41,15 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 
 13) Ekranın solundaki seçeneklerde biz yolo ile eğitim yapacağımız için yolo'nun seçilmiş olması gerekli. Eğer seçili değilse üzerine tıklayarak yolo'yu seçiniz.
 
-14) Artık etiketlemeye gelmiş bulunmaktayız solunda bulunan " create rectbox " seçeneğini seçelim ve neyi etiteklemek istiyorsanız farenin sol tuşuna basılı tutarak etiketleme işlemini yapınız. İşlemi yaptıktan sonra size etiketin hangi isimle(tag) kaydedileceğini soracaktır. Oraya ise (kısa ve tek bir kelime ile yazmanızı tavsiye ederim, mesela araba lastiği değilde sadece lastik olarak yazabilirseniz ileride olaşabilicek sorunları azaltabilirsiniz) etiketinizi ismini yazıp tamam butonuna tıklayın. Etiketin ve tagın kaydedilmesi lazım bunun için ise ekranın sol kısmında bulunan save(kaydet) butonuna tıklayınız.
+14) Artık etiketlemeye gelmiş bulunmaktayız solunda bulunan " create rectbox " seçeneğini seçelim ve neyi etiteklemek istiyorsanız farenin sol tuşuna basılı tutarak etiketleme işlemini yapınız. ![Ek Açıklama 2023-12-13 164710](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/3672ab08-f153-4fa9-9517-c0abcc3abefc)
 
-15) Evet buraya kadar etiketleme işlemini anlattım.
+
+15) İşlemi yaptıktan sonra size etiketin hangi isimle(tag) kaydedileceğini soracaktır. Oraya ise (kısa ve tek bir kelime ile yazmanızı tavsiye ederim, mesela araba lastiği değilde sadece lastik olarak yazabilirseniz ileride olaşabilicek sorunları azaltabilirsiniz) etiketinizi ismini yazıp tamam butonuna tıklayın.  ![Ek Açıklama 2023-12-13 164744](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/e5853555-8dc1-4e40-84c4-da69aca1449c)
+
+
+16) Etiketin ve tagın kaydedilmesi lazım bunun için ise ekranın sol kısmında bulunan save(kaydet) butonuna tıklayınız.
+
+17) Evet buraya kadar etiketleme işlemini anlattım.
 
 
 
