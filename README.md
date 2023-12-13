@@ -70,7 +70,13 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 23) (v8_custom) klasörümüze kod kısmında paylaşmış olduğum " data_custom.yaml " dosyasını kopyalayınız.
 24) Bu dosya eğitim aşamasında kullanılmak üzere eğitimin hangi klasörler üzerinden yapılacağını belirtmek için hazırlanmıştır.
 
-25) ![yaml](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/2268ce9e-f874-4a6e-b4df-9071b4df901d) 
+25) ![yaml](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/2268ce9e-f874-4a6e-b4df-9071b4df901d)
+
+26) Şimdi promt terminalimize gelelim ve " pip install ultralytics " yazıp çalıştıralım. Ultralytics YOLOv8 ile eğitim yapmamız için gerekli tüm kütüphaneleri indirecektir.
+27) Terminal ekranında indirilen kütüphanelere bakarsak eğer pytorch kütüphanesinin CPU versiyonun indirdiğini görebiliriz. Eğer biz işlemlerimizi GPU üzerinde yapmak istersek https://pytorch.org/get-started/locally/ adrsinden bilgisayrımıza ve CUDA versiyonuna göre seçenekleri seçtikten sonra alt ekranda oluşan kodu kendi terminalimizde 
+" pip3 --upgrade " komutu ile birlikte çalıştırrarak Pytorch kütüphanesinin GPU versiyonunu indireceğiz. Örnek olarak :  ![pytorch](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/0391c938-0a92-4146-b30d-cc70fbd3c126) ve ![pip3](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/d98f2be4-fd72-4841-af01-dd8013dec101)
+
+
 
 
 
