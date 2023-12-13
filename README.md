@@ -31,9 +31,20 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 
 9) İndirme işlemi tamamlanınca simple_images adında bir klasör oluşacaktır ve indirdiğiniz resimler bu klasör içinde bulunacaktır. Bu klasörün ismini " images " olarak değiştiriniz. v8_custom klasörümüzün şuan böyle görünmesi gerekli :  ![imagessongrt](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/3425a756-f4a5-44f2-9160-9a60f1f66b57)
 
+## ETİKETLEME (LABELING) ##
+
 10) Şimdi resim etiketleme işlemi için bir başka kütüphanemiz olan labelImg kütüphanesini indireceğiz. İndirmek için terminale " pip install labelImg " yazıyoruz ve çalıştırıyoruz. İndirme tamamlandıktan sonra " labelImg " yazalım ve çalıştıralım. Açılan ekranımız ise ![labelımg](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/30f789e3-da4e-4dc0-9a95-5395f4c9b408)
 
-11) 
+11) ![Ek Açıklama 2023-12-13 163157](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/a5aa3357-f441-480a-a1c0-de3a884edacf) Ekranın sol üstündeki File kısmında kullanacağımız olan (open dir) yani etikelenecek olan resimlerin bulunduğu klasörü seçmemiz istenir. Bir diğer kullanacağımız seçenek ise (save dir) bu ise etiketlenmiş resimleri nereye kaydetmek istediğinizi sorar. Nereye kaydetmek istiyorsanız o klasörü seçiniz.
+
+12) Biz ise bu kaydetmek istediğimiz klasörü v8_custom içine (labels) isimli bir klasör oluşturmakla başlayalım. Klasörü oluşturduktan sonra etiketleme işlemine başlayabiliriz. İlk olarak (open dir) seçeneği ile etiketlecenek resimlerin bulunduğu (images) dosyamızı seçiyoruz. Ardından kaydetmek istediğimiz dosyayı yani (labels) klasörünü seçiyoruz. Ekranımıza ilk resmimiz geldiyse devam edelim.
+
+13) Ekranın solundaki seçeneklerde biz yolo ile eğitim yapacağımız için yolo'nun seçilmiş olması gerekli. Eğer seçili değilse üzerine tıklayarak yolo'yu seçiniz.
+
+14) Artık etiketlemeye gelmiş bulunmaktayız solunda bulunan " create rectbox " seçeneğini seçelim ve neyi etiteklemek istiyorsanız farenin sol tuşuna basılı tutarak etiketleme işlemini yapınız. İşlemi yaptıktan sonra size etiketin hangi isimle(tag) kaydedileceğini soracaktır. Oraya ise (kısa ve tek bir kelime ile yazmanızı tavsiye ederim, mesela araba lastiği değilde sadece lastik olarak yazabilirseniz ileride olaşabilicek sorunları azaltabilirsiniz) etiketinizi ismini yazıp tamam butonuna tıklayın. Etiketin ve tagın kaydedilmesi lazım bunun için ise ekranın sol kısmında bulunan save(kaydet) butonuna tıklayınız.
+
+15) Evet buraya kadar etiketleme işlemini anlattım.
+
 
 
 
