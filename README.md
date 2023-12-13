@@ -21,7 +21,7 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 
    
 
-7)  Bu aracı (download_images.py) ismi ile kod bölümün içinde paylaştım. Bu dosyayı herhangi bir metin düzenleme uygulaması ile açıp ne indirmek istiyorsanız "keywords" başlığının yanına yazabilirsiniz. Ben modelime kedileri algılatmak için inglizce olarak "cat" yazdım.
+7)  Bu aracı (download_images.py) ismi ile kod bölümün içinde paylaştım. Bu dosyayı herhangi bir metin düzenleme uygulaması ile açıp ne indirmek istiyorsanız "keywords" başlığının yanına yazabilirsiniz. Ben modelime kedileri eğitmek istediğim için inglizce olarak "cat" yazdım.
    
    ![image_download](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/0ab21af6-6d92-4e2a-a1c6-ea94446d445f)
 
