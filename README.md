@@ -31,8 +31,10 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 
 9) İndirme işlemi tamamlanınca simple_images adında bir klasör oluşacaktır ve indirdiğiniz resimler bu klasör içinde bulunacaktır. Bu klasörün ismini " images " olarak değiştiriniz. v8_custom klasörümüzün şuan böyle görünmesi gerekli :  ![imagessongrt](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/3425a756-f4a5-44f2-9160-9a60f1f66b57)
 
+10) Şimdi resim etiketleme işlemi için bir başka kütüphanemiz olan labelImg kütüphanesini indireceğiz. İndirmek için terminale " pip install labelImg " yazıyoruz ve çalıştırıyoruz. İndirme tamamlandıktan sonra " labelImg " yazalım ve çalıştıralım. Açılan ekranımız ise ![labelımg](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/30f789e3-da4e-4dc0-9a95-5395f4c9b408)
 
-10) 
+11) 
+
 
 
 
