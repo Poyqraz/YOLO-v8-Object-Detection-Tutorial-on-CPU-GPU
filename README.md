@@ -67,6 +67,12 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 
     Evet an itibari ile veri setimizi oluşturmuş bulunmaktayız.
 
+23) (v8_custom) klasörümüze kod kısmında paylaşmış olduğum " data_custom.yaml " dosyasını kopyalayınız.
+24) Bu dosya eğitim aşamasında kullanılmak üzere eğitimin hangi klasörler üzerinden yapılacağını belirtmek için hazırlanmıştır.
+
+25) ![yaml](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/2268ce9e-f874-4a6e-b4df-9071b4df901d) 
+
+
 
 
 
