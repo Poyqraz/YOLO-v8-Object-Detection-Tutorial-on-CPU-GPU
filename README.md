@@ -73,9 +73,17 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 25) ![yaml](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/2268ce9e-f874-4a6e-b4df-9071b4df901d)
 
 26) Şimdi promt terminalimize gelelim ve " pip install ultralytics " yazıp çalıştıralım. Ultralytics YOLOv8 ile eğitim yapmamız için gerekli tüm kütüphaneleri indirecektir.
-27) Terminal ekranında indirilen kütüphanelere bakarsak eğer pytorch kütüphanesinin CPU versiyonun indirdiğini görebiliriz. Eğer biz işlemlerimizi GPU üzerinde yapmak istersek https://pytorch.org/get-started/locally/ adrsinden bilgisayrımıza ve CUDA versiyonuna göre seçenekleri seçtikten sonra alt ekranda oluşan kodu kendi terminalimizde 
-" pip3 --upgrade " komutu ile birlikte çalıştırrarak Pytorch kütüphanesinin GPU versiyonunu indireceğiz. Örnek olarak :  ![pytorch](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/0391c938-0a92-4146-b30d-cc70fbd3c126) ve ![pip3](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/d98f2be4-fd72-4841-af01-dd8013dec101)
 
+27) Terminal ekranında indirilen kütüphanelere bakarsak eğer pytorch kütüphanesinin CPU versiyonun indirdiğini görebiliriz. Eğer biz işlemlerimizi GPU üzerinde yapmak istersek https://pytorch.org/get-started/locally/ adresinden bilgisayrımıza ve CUDA versiyonuna göre seçenekleri seçtikten sonra alt ekranda oluşan kodu kendi terminalimizde 
+" pip3 --upgrade " komutu ile birlikte çalıştırarak Pytorch kütüphanesinin GPU versiyonunu indireceğiz. Örnek olarak :  ![pytorch](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/0391c938-0a92-4146-b30d-cc70fbd3c126) ve ![pip3](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/d98f2be4-fd72-4841-af01-dd8013dec101)
+
+28) Az önce yaptığımız işlem bilgisayarımızda CUDA çekirdekli bir ekran kartımız varsa onu kullanabilmemiz için pythorch'un CUDA(GPU) versiyonunu kurmamıza yardım etti.
+
+29) Sıra eğitim yapmak istediğimiz YOLO-V8 modelinin seçmeye geldi. https://github.com/ultralytics/ultralytics adresinden 
+![models](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/c32ef039-aa52-493c-905c-a2404ab93cc3) resimde görmüş olduğunuz modellerden isteğiniz, keyfiniz, yapmak istediğiniz işlem veya işlem değerlerine göre size uygun olan modeli seçiniz. Kararınızı verdikten sonra mesela YOLOv8m modelini kullanacağız ozaman bunu terminalde " yolov8m.pt " olarak belirtmeliyiz.
+
+30) Eğitim aşamasını başlatmak için terminalimize 
+![cmdson](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/748b1d7b-c251-45fd-a17b-a60c9d66a95c)  ekranda görülen kodları yazmamız yeterlidir. Detaylar bariz olup görselde de anlatılmıştır.
 
 
 
