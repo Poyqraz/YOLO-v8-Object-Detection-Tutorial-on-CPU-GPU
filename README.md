@@ -62,6 +62,13 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 
 21) Şuan için (v8_custom) klasörümüz bu şekilde görünmeli :  ![labelssongrt](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/c0bace79-4f5f-41bb-9382-85349d30adee)
 
+22) (v8_custom) klasöründeki (images) ve (labels) klasörlerini (train) klasörünün içine atınız.
+     Şuan ise klasörümüz bu şekilde görünmeli : ![trainsongrt](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/723d5b6f-4673-4519-a03f-b26715261969)
+
+    Evet an itibari ile veri setimizi oluşturmuş bulunmaktayız.
+
+
+
 
 
 
