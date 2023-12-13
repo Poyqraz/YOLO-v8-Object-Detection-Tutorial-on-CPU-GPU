@@ -85,20 +85,30 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 30) Eğitim aşamasını başlatmak için terminalimize 
 ![cmdson](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/748b1d7b-c251-45fd-a17b-a60c9d66a95c)  ekranda görülen kodları yazmamız yeterlidir. Detaylar bariz olup görselde de anlatılmıştır.
 
-31) Modelimizi eğitme aşaması bu kadardı umarım bir sorun ile karşılaşmamışsınızdır. Eğer bir hata ile karşılaşmışsanız bilinki yeni bir tecrübe edineceksiniz. Bu bakış açısıyla yaklaşırsanız sorunu daha rahat anlar ve daha rahat müdahalede bulununursunuz. Bir sonraki adımımız eğittiğimiz modelimizi bir fotoğraf ve video üzerinden test etmek.
+31) Modelimizi eğitme aşaması bu kadardı umarım her şey yolundadır . Bir sonraki adımımız eğittiğimiz modelimizi bir fotoğraf ve video üzerinden test etmek.
 
-32) (v8_custom\runs\detect\train\weights) klasörü içindeki (best.pt) dosyasını ana klasörümüz (v8_custom) içine kopyalayalım ve ismini " yolov8m_custom " olarak değiştirelim. Buradaki best.pt dosyamız bizim eğitilmiş olan modelimizdir. Fotoğraf ve videolarımızı artık bu eğitilmiş modelimiz üzerinde işleyeceğiz.
+## GÖRÜNTÜYÜ İŞLEME ##
 
-33) (val\images) klasöründen herhangi bir resmi kopyalayıp ana klasörümüz olan (v8_custom) klasörüne yapıştıralım ve ismini " 1.jpg " veya " 1.jpeg " olarak değiştirelim. Aynı uygulamayı video üzerinden yapmak istersenizde video dosyasını ana klasöre attıktan sonrada yapabilirsiniz. İsim opsiyoneldir istediğiniz ismi verebilirsiniz ben sadece kolay bir isim seçmekten yanayım.
+33) (v8_custom\runs\detect\train\weights) klasörü içindeki (best.pt) dosyasını ana klasörümüz (v8_custom) içine kopyalayalım ve ismini " yolov8m_custom " olarak değiştirelim. Buradaki best.pt dosyamız bizim eğitilmiş olan modelimizdir. Fotoğraf ve videolarımızı artık bu eğitilmiş modelimiz üzerinde işleyeceğiz.
 
-34) Terminalimize ![Ek Açıklama 2023-12-13 212509](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/017abff9-09fd-4d8e-93b4-09d65605e81c) resimde görülen kodları yazdıktan sonra eğitilen yolo v8 modeli nesne tespiti yapmaya başlayacaktır. ![reference__header-yolo](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/521cc488-8f58-4ee4-a397-be23462c06af)
+34) (val\images) klasöründen herhangi bir resmi kopyalayıp ana klasörümüz olan (v8_custom) klasörüne yapıştıralım ve ismini " 1.jpg " veya " 1.jpeg " olarak değiştirelim. Aynı uygulamayı video üzerinden yapmak istersenizde video dosyasını ana klasöre attıktan sonrada yapabilirsiniz. İsim opsiyoneldir istediğiniz ismi verebilirsiniz ben sadece kolay bir isim seçmekten yanayım.
+
+35) Terminalimize ![Ek Açıklama 2023-12-13 212509](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/017abff9-09fd-4d8e-93b4-09d65605e81c) resimde görülen kodları yazdıktan sonra eğitilen yolo v8 modeli nesne tespiti yapmaya başlayacaktır. ![reference__header-yolo](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/521cc488-8f58-4ee4-a397-be23462c06af)
 
 
-35) İşlenmiş görüntülerin çıktıları tespit sonrasında oluşacak olan (runs) klasöründe toplanacaktır. Bu klasördeki çıktılar sayesinde modelinizin nasıl görüntü işlediğini kontrol edebilirsiniz.
+36) İşlenmiş görüntülerin çıktıları tespit sonrasında oluşacak olan (runs) klasöründe toplanacaktır. Bu klasördeki çıktılar sayesinde modelinizin nasıl görüntü işlediğini kontrol edebilirsiniz.
 
-36) Modelinizi canlı olarak web kameranızda kullanmak istiyorsanız " source=0 " yazmalısınız.
+37) Modelinizi canlı olarak web kameranızda kullanmak istiyorsanız " source=0 " yazmalısınız.
 
     ![sonnnnn](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/9ad27e69-d046-4e20-98dc-2276a3a4e051)
+
+
+## KAPANIŞ ##
+
+38) Evet değerli okuyucularım, yolo v8 ile fotoğraf ve video işleme eğitiminin sonuna gelmiş bulunmaktayız. Umarım bir sorun ile karşılaşmamışsınızdır. Eğer bir hata ile karşılaşmışsanız bilin ki yeni bir tecrübe edineceksiniz. Bu bakış açısıyla yaklaşırsanız sorunu daha rahat anlar ve daha rahat müdahalede bulununursunuz. Sorunlar bizi geliştiren şeylerdir. Gerek kod yazarken gerekse hayatımızda çeşitli sorunlarla karşılaşıyor olabiliriz. Bu sorunlara çözüm aramak kimi zaman kısa kimi zaman uzun vakitlerimizi alsada o sorunu çözmek için verdiğimiz uğraş ve çaba ileride meydana gelebilecek diğer sorunlara karşı alacağımız bakış açımızı ve tavrımızı olumlu yönde değiştirecektir. Bu perspektiften olaylara yaklaşırsak çözülemez dediğimiz olaylar bir başka olayın çözüm anahtarı olabilir. Bu yaklaşım hayatta bize kontrölü sağlar. Unutmayın, zaman her şeyin ilacıdır. Sağlıcakla kalın.
+   
+40) KOLAY GELSİN ...
+
 
 
 
