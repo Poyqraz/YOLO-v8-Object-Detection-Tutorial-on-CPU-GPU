@@ -47,9 +47,21 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 15) İşlemi yaptıktan sonra size etiketin hangi isimle(tag) kaydedileceğini soracaktır. Oraya ise (kısa ve tek bir kelime ile yazmanızı tavsiye ederim, mesela araba lastiği değilde sadece lastik olarak yazabilirseniz ileride olaşabilicek sorunları azaltabilirsiniz) etiketinizi ismini yazıp tamam butonuna tıklayın.  ![Ek Açıklama 2023-12-13 164744](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/e5853555-8dc1-4e40-84c4-da69aca1449c)
 
 
-16) Etiketin ve tagın kaydedilmesi lazım bunun için ise ekranın sol kısmında bulunan save(kaydet) butonuna tıklayınız.
+16) Etiketin ve tagın kaydedilmesi lazım bunun için ise ekranın sol kısmında bulunan save(kaydet) butonuna tıklayınız. Diğer resimlerini etiketlemek için ise ekranın sol kısmında bulunan next butonuna basarak aynı işlemleri diğer etiketlenecek olan resimlerinize uygulayabilirsiniz.
 
-17) Evet buraya kadar etiketleme işlemini anlattım.
+17) Evet buraya kadar etiketleme işlemini anlattım. Buradan sonra eğitim(train) aşamasını anlatacağım.
+
+## EĞİTİM (TRAIN) ##
+
+(v8_custom) klasörümüze (train) ve (val) adında iki farklı klasör oluşturalım.
+
+18) (val) klasörü içine (images) ve (labels) adında iki farklı klasör oluşturalım.
+
+19) (v8_custom\images) klasörünün içinde yer alan resimlerin son 8 tanesini kesip (val\images) klasörü içine yapıştırıyoruz. Aynı işlemi (labels) ler içinde yapınız.
+20) (v8_custom\labels) klasöründen " classes.txt " kesip (v8_custom) içine yapıştırın.
+
+21) Şuan için (v8_custom) klasörümüz bu şekilde görünmeli :  ![labelssongrt](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/c0bace79-4f5f-41bb-9382-85349d30adee)
+
 
 
 
