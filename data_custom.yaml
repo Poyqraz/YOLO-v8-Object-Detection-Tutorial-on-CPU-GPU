@@ -1,0 +1,6 @@
+train: C:\Users\User\Desktop\v8_custom\train
+val: C:\Users\User\Desktop\v8_custom\val
+
+nc: 2
+
+names: ["ak47", "mk18"]
