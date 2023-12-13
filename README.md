@@ -85,6 +85,23 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 30) Eğitim aşamasını başlatmak için terminalimize 
 ![cmdson](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/748b1d7b-c251-45fd-a17b-a60c9d66a95c)  ekranda görülen kodları yazmamız yeterlidir. Detaylar bariz olup görselde de anlatılmıştır.
 
+31) Modelimizi eğitme aşaması bu kadardı umarım bir sorun ile karşılaşmamışsınızdır. Eğer bir hata ile karşılaşmışsanız bilinki yeni bir tecrübe edineceksiniz. Bu bakış açısıyla yaklaşırsanız sorunu daha rahat anlar ve daha rahat müdahalede bulununursunuz. Bir sonraki adımımız eğittiğimiz modelimizi bir fotoğraf ve video üzerinden test etmek.
+
+32) (v8_custom\runs\detect\train\weights) klasörü içindeki (best.pt) dosyasını ana klasörümüz (v8_custom) içine kopyalayalım ve ismini " yolov8m_custom " olarak değiştirelim. Buradaki best.pt dosyamız bizim eğitilmiş olan modelimizdir. Fotoğraf ve videolarımızı artık bu eğitilmiş modelimiz üzerinde işleyeceğiz.
+
+33) (val\images) klasöründen herhangi bir resmi kopyalayıp ana klasörümüz olan (v8_custom) klasörüne yapıştıralım ve ismini " 1.jpg " veya " 1.jpeg " olarak değiştirelim. Aynı uygulamayı video üzerinden yapmak istersenizde video dosyasını ana klasöre attıktan sonrada yapabilirsiniz. İsim opsiyoneldir istediğiniz ismi verebilirsiniz ben sadece kolay bir isim seçmekten yanayım.
+
+34) Terminalimize ![Ek Açıklama 2023-12-13 212509](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/017abff9-09fd-4d8e-93b4-09d65605e81c) resimde görülen kodları yazdıktan sonra eğitilen yolo v8 modeli nesne tespiti yapmaya başlayacaktır. ![reference__header-yolo](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/521cc488-8f58-4ee4-a397-be23462c06af)
+
+
+35) İşlenmiş görüntülerin çıktıları tespit sonrasında oluşacak olan (runs) klasöründe toplanacaktır. Bu klasördeki çıktılar sayesinde modelinizin nasıl görüntü işlediğini kontrol edebilirsiniz.
+
+36) Modelinizi canlı olarak web kameranızda kullanmak istiyorsanız " source=0 " yazmalısınız.
+
+    ![sonnnnn](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/9ad27e69-d046-4e20-98dc-2276a3a4e051)
+
+
+
 
 
 
