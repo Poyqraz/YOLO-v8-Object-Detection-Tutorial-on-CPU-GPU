@@ -109,6 +109,10 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
    
 40) KOLAY GELSİN ...
 
+https://docs.ultralytics.com
+https://docs.ultralytics.com/usage/cfg/
+https://docs.ultralytics.com/modes/
+https://github.com/ultralytics/ultralytics
 
 
 
