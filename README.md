@@ -1,6 +1,6 @@
 # Custom-YOLO-v8-Object-Detection-on-CPU-GPU
 
-Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşılır bir şekilde takip edebilirsiniz.
+Projemizi anaconda prompt üzerinden yapacağız. Adımları yavaş ve anlaşılır bir şekilde takip edebilirsiniz.
 
 ## BAŞLANGIÇ ##
 
@@ -14,7 +14,7 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
    conda activate yolov8_custom
    ![activate](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/4f27f433-48a0-46f1-9fe3-b3655b1e449a)
 
-5) Veri setimizi oluşturacağız o yüzden eğitim yapmak istediğimiz resimleri indirmemiz veya toplamamız gerekiyor.Bunun için ben resim indirme aracı kullanıyorum. Promt ekranına geliyoruz ve
+5) Veri setimizi oluşturacağız o yüzden eğitim yapmak istediğimiz resimleri indirmemiz veya toplamamız gerekiyor.Bunun için ben resim indirme aracı kullanıyorum. prompt ekranına geliyoruz ve
    pip install simple_image _download==0.4 yazıp çalıştırıyoruz. (0.4) sürümünü ise diğer sürümleri çalışmadığı için kullanmak durumundayız. 
 
    ![pip simple](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/823e7767-7e3f-46f5-83bc-5d4869104fb4)
@@ -24,7 +24,7 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
    ![image_download](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/0ab21af6-6d92-4e2a-a1c6-ea94446d445f)
 
 
-7)Promt ekranımıza gelip " cd (v8_custom dosyamızın uzantısını buraya yazıyoruz) " yazıp çalıştırıyoruz. Örnek olarak eğer ben terminalime " cd C:\Users\User\Desktop\v8_tutorial " yazarsam terminalim belirtmiş olduğum dosya yolunda işlem yapacaktır.
+7)Prompt ekranımıza gelip " cd (v8_custom dosyamızın uzantısını buraya yazıyoruz) " yazıp çalıştırıyoruz. Örnek olarak eğer ben terminalime " cd C:\Users\User\Desktop\v8_tutorial " yazarsam terminalim belirtmiş olduğum dosya yolunda işlem yapacaktır.
    
 
 8) Terminale geliyoruz ve " python download_images.py " yazıp çalıştırıyoruz. Bu komutumuz ile birlikte resimlerimiz indirilmeye başlanacaktır. İndirme süresi kendi internet hızınıza ve indirmek istediğiniz resim sayısına göre değişkenlik gösterebilir.
@@ -72,7 +72,7 @@ Projemizi anaconda promt üzerinden yapacağız. Adımları yavaş ve anlaşıl�
 
 25) ![yaml](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/2268ce9e-f874-4a6e-b4df-9071b4df901d)
 
-26) Şimdi promt terminalimize gelelim ve " pip install ultralytics " yazıp çalıştıralım. Ultralytics YOLOv8 ile eğitim yapmamız için gerekli tüm kütüphaneleri indirecektir.
+26) Şimdi prompt terminalimize gelelim ve " pip install ultralytics " yazıp çalıştıralım. Ultralytics YOLOv8 ile eğitim yapmamız için gerekli tüm kütüphaneleri indirecektir.
 
 27) Terminal ekranında indirilen kütüphanelere bakarsak eğer pytorch kütüphanesinin CPU versiyonun indirdiğini görebiliriz. Eğer biz işlemlerimizi GPU üzerinde yapmak istersek https://pytorch.org/get-started/locally/ adresinden bilgisayrımıza ve CUDA versiyonuna göre seçenekleri seçtikten sonra alt ekranda oluşan kodu kendi terminalimizde 
 " pip3 --upgrade " komutu ile birlikte çalıştırarak Pytorch kütüphanesinin GPU versiyonunu indireceğiz. Örnek olarak :  ![pytorch](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/0391c938-0a92-4146-b30d-cc70fbd3c126) ve ![pip3](https://github.com/Poyqraz/Custom-YOLO-v8-Object-Detection-on-CPU-GPU/assets/48729799/d98f2be4-fd72-4841-af01-dd8013dec101)
