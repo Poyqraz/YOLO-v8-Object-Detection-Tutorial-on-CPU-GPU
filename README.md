@@ -1,4 +1,4 @@
-# Custom-YOLO-v8-Object-Detection-on-CPU-GPU
+# Yolo v8 ile CPU veya GPU üzerinde Nesne Tespit Eğitimi
 
 Projemizi anaconda prompt üzerinden yapacağız. Adımları yavaş ve anlaşılır bir şekilde takip edebilirsiniz.
 
